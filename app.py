@@ -27,7 +27,7 @@ Base.metadata.create_all(engine)
 
 st.set_page_config(page_title='FORMULARIO DE ITINERARIO')
 st.title('CADASTRO DE ITINERARIO 2026')
-st.info('OS DADOS SERÃO SALVOS DIRETAMENTE NO POSTGREESQL DA NUVEM NEON.TECH')
+st.info('OS DAOS SERÃO SAÇVOS DIRETAMENTE NO POSTGREESQL DA NUVEM NEON.TECH')
 
 with st.form('Formulario', clear_on_submit=True):
     nome_input = st.text_input('NOME DO ITINERARIO')
